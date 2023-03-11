@@ -4,9 +4,9 @@
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
- 
+
     /*========== Colors ==========*/
-    --hue-color: 190; 
+    --hue-color: 190;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -159,7 +159,7 @@ img {
     margin-right: var(--mb-1-5);
 }
 
-.grid {
+.grid{
     display: grid;
     gap: 1.5rem;
 }
@@ -204,7 +204,7 @@ img {
 @media screen and (max-width: 767px){
     .nav_menu{
         position: fixed;
-        bottom: -100%; 
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -215,7 +215,7 @@ img {
     }
 }
 
-.nav_list {
+.nav_list{
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
@@ -273,7 +273,7 @@ img {
 .home_content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
-    align-items: center; 
+    align-items: center;
 }
 
 .home_social{
@@ -320,12 +320,12 @@ img {
 }
 
 .home_scroll{
-    display: none; 
+    display: none;
 }
 
 .button:hover .button_contactame {
     transform: translateX(.25rem);
-} 
+}
 
 .home_scroll-button{
     color: var(--first-color);
@@ -359,7 +359,7 @@ img {
     color: #FFF;
     padding: 1rem;
     border-radius: .5rem;
-    font-weight: var(--font-medium);    
+    font-weight: var(--font-medium);
 }
 
 .button:hover{
@@ -512,26 +512,23 @@ img {
     background-color: var(--first-color);
 }
 
-.skills_html,
-.skills_microsoft,
-.skills_moffice{
+.skills_html{
     width: 90%;
 }
 
 .skills_css,
-.skills_sqlserver,
-.skills_pwa,
-.skills_c,
 .skills_git,
 .skills_github,
 .skills_mwwere,
+.skills_microsoft,
 .skills_filmora{
     width: 80%;
 }
 
 .skills_bootstrap,
-.skills_mysql,
-.skills_sqlite,
+.skills_oracle,
+.skills_moffice,
+.skills_sqlserver,
 .skills_gitkraken{
     width: 70%;
 }
@@ -544,6 +541,10 @@ img {
 .skills_linux,
 .skills_node,
 .skills_python,
+.skills_pwa,
+.skills_c,
+.skills_mysql,
+.skills_sqlite,
 .skills_illustrator{
     width: 60%;
 }
@@ -715,7 +716,7 @@ img {
 .services_modal-service{
     display: flex;
 }
- 
+
 .services_modal-title{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -734,7 +735,7 @@ img {
 .services_modal-icon{
     color: var(--first-color);
     margin-right: var(--mb-0-25);
-}    
+}
 
 /* Active Modal */
 .active-modal{
@@ -782,7 +783,7 @@ img {
 
 .swiper-button-prev{
     left: -.5rem;
-} 
+}
 
 .swiper-button-next{
     right: -.5rem;
@@ -876,7 +877,7 @@ img {
 .footer_bg{
     background-color: var(--first-color-second);
     padding-top: 2rem;
-}    
+}
 
 .footer_title{
     font-size: var(--h1-font-size);
@@ -1001,7 +1002,7 @@ img {
 
     .services_content{
         padding-right: 3.5rem;
-        
+
     }
 
     .services_modal{
@@ -1209,7 +1210,7 @@ img {
 
     .footer_socials{
         justify-self: center;
-    } 
+    }
 
     .footer_copy{
         margin-top: 4.5rem;
@@ -1264,5 +1265,3 @@ img {
         width: 460px;
     }
 }
-
-
